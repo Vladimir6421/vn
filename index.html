@@ -43,11 +43,12 @@
      <div class="card bg-yellow">
 
      <h2>Мои хобби</h2>
-     <ol>
+     <ol class="list">
          <li>Блогерство</li>
+         <li>Развитие</li>
           <li>Я люблю сидеть  и зарабатывать деньги</li>
           <li>Спорт: ММА, Пробежки </li>
-          <li>Gentitcndbz</li>
+          <li>Путешествия</li>
         </ol>
 
     </div>
@@ -63,30 +64,43 @@
 
 
             <h2>Опыт работы</h2>
-            <table>
-                <thead>
-                <tr>
+            <table class="table">
+                
+                <tr class="temp">
                     <th>Компания</th>
                     <th>Должность</th>
                     <th>Год</th>
                 </tr>
 
-        
-                </thead>
-                <tbody> 
+                <tr>
+                    <td>ООО Центр реструктуризации</td>
+                    <td>Продавец</td>
+                    <td>2012</td>
+                </tr>
+
+
+                <tr>
+                    <td>Автомоечный центр "ЛЮКС"</td>
+                    <td>Автомойщик 2 кат.</td>
+                    <td>2014</td>
+                </tr>
+
                 <tr>
                     <td>Чебоксарский хлебзавод №1</td>
                     <td>Сменный наладчик КИПиА</td>
                     <td>2015-2019</td>
-                </tr>
-                <tr>
-                <td>ВНИИР</td>
-                <td>Инженер по наладке и испытаниям 2 кат.</td>
-                <td>2019-2021</td>
+                </tr>        
+                
+                 
+                     <tr>
+                    <td>ВНИИР</td>
+                    <td>Инженер по наладке и испытаниям 2 кат.</td>
+                    <td>2019-2021</td>
+                    </tr>
         
             </table>
          </div>
-        </tbody>
+       
             <!--tfoot></!--tfoot- для отображения, например, подсчета под таблицей. Пока не используется-->
       
 
@@ -97,38 +111,72 @@
 
    
         <h2>youtube, где ты можешь посмотреть видосики</h2>
-        <a href="youtube.html">Посмотреть список 
-            
-        </a>
-    </div>
-        
+        <ul class="link-list">
+            <li>
+               <a href="https://www.youtube.com/watch?v=rsZFwUg2N6Q&ab_channel=KOSMO">
+                  Что обнаружил зонд «Паркер» на Солнце?</a>
+      </li>
+      </ul>
+      
+      
+      <ul class="link-list">
+         <li>
+            <a href="https://www.youtube.com/watch?v=fl-eJcX6oSQ&ab_channel=%D0%98%D0%9B%D0%AC%D0%94%D0%90%D0%A0%D0%90%D0%92%D0%A2%D0%9E-%D0%9F%D0%9E%D0%94%D0%91%D0%9E%D0%A0">
+               Новый проект! Давно мечтал это сделать )</a>
+      </li>
+      </ul>
+      
+      
+      
+      <ul class="link-list">
+         <li>
+            <a href="https://www.youtube.com/watch?v=E6WdSqbM58k&ab_channel=ScienceVideoLab">
+               Скептик vs Климатолог_Переживем ли мы глобальное потепление? С. Дробышевский против А. Чернокульского. УПМ 12-16</a>
+      </li>
+      </ul>
+
+   </div>
+
+
+<div class="contact">
+  
         <h2>Связаться со мной</h2> 
         <form action="/">
+            <div class="row">
+
+            <div class="form-group">           
            <label for="name">Vashe_имя</label>
             <input type="text" id="name" 
             placeholder="Введите ваше имя..">
             <!--если атрибут for & id совпадают, то при нажатии на имя, автоматически начнется ввод имени в графе-->
+        </div>
+    </div>
 
-            <br>
+        <div class="form-group"> 
 
             <label for="email">Ваш email</label>
             <input type="text" id="email"  placeholder="Введите e-mail..">
            <!-- если атрибут for & id совпадают, то при нажатии на имя, автоматически начнется ввод имени в графе-->
-     
-           
-           <br>
+    
+             
 
            <label for="text">Вашe сообщение:<label>
-
-    <textarea id="text" rows="2" cols="15" ></textarea>
-           
             <br>
 
+    <textarea id="text" rows="6" cols="auto" >
+        Привет, я хотел бы..
+
+    </textarea>
+
+           <br>
            <input type="submit" value="связаться">
              <!-- примеры type инпутов: password, color, date, range, checkbox, radio, submit_кнопка_,   -->
            </label>
+        </div>
         
         </form>
+    </div>
+</div>
       
  
 <!--
@@ -150,7 +198,7 @@
     -->
 
 
-     <div style="margin-bottom: 500px;">
+     <div style="margin-bottom: 450px;">
          
      </div> 
 
