@@ -8,11 +8,9 @@
 </head>
     <body >
         <div class="container">
-
         <div class="info">
-                <img src="avatar2.jpg" alt="это фото профиля" class="avatar"/>
-                
-               
+                <img src="avatar.jpg" alt="это фото профиля" class="avatar"/>
+                <div class="info-text">              
                 <h1>Владимир Державин</h1>
                 <p> Я студент группы <strong>ЭТ 51-10</strong></em> </p>
                 <p>Я люблю путешествовать, заниматься спортом и программировать</p>
@@ -21,8 +19,12 @@
                 <h4>Мои Социальные сети</h4>
                
     
-        <a href="https://instagram.com/derzhavin64" target="_blank ">Instagram</a> |
-   <a href="https://vk.com/derzhavin64" target="_blank ">VKONTACKTE</a>
+        <a href="https://instagram.com/derzhavin64" target="_blank ">Instagram</a> 
+   |
+   <a href="https://www.facebook.com/profile.php?id=1000043374732524" target="_blank ">Fb</a>
+
+   |
+   <a href="https://vk.com/derzhavin64" target="_blank ">Vk</a>
                    
               
         
@@ -30,9 +32,10 @@
 
 
 
-    
+   
 
         </div>
+    </div>
 
 
 
@@ -150,29 +153,36 @@
             placeholder="Введите ваше имя..">
             <!--если атрибут for & id совпадают, то при нажатии на имя, автоматически начнется ввод имени в графе-->
         </div>
-    </div>
+    
+
+
+    
 
         <div class="form-group"> 
 
             <label for="email">Ваш email</label>
             <input type="text" id="email"  placeholder="Введите e-mail..">
            <!-- если атрибут for & id совпадают, то при нажатии на имя, автоматически начнется ввод имени в графе-->
+        </div>
+    </div>
+               
+        <div class="form-group">
+            <label for="text">Вашe сообщение:<label>
+                <br>
     
-             
+        <textarea id="text" rows="6" cols="auto" >
+            Привет, я хотел бы..    
+        </textarea>
+        </div>
+        
+</div>
 
-           <label for="text">Вашe сообщение:<label>
-            <br>
-
-    <textarea id="text" rows="6" cols="auto" >
-        Привет, я хотел бы..
-
-    </textarea>
-
-           <br>
-           <input type="submit" value="связаться">
+          
+           <input class="btn" type="submit"
+            value="связаться">
              <!-- примеры type инпутов: password, color, date, range, checkbox, radio, submit_кнопка_,   -->
            </label>
-        </div>
+        
         
         </form>
     </div>
