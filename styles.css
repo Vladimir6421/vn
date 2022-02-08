@@ -55,7 +55,20 @@ a:visited {
 .info {
     margin-bottom: 25px;
     display: flex;
+
 }
+
+
+
+@media (max-width: 700px) {
+.info {
+    display: block;
+    text-align: center;
+}
+
+
+}
+
 
 .info-text {
     margin-left: 40px;
@@ -256,3 +269,28 @@ box-sizing: border-box;
 .btn:hover{
     opacity: 0.9;
 }
+
+
+/*position*/
+/*
+.position {
+position: relative;
+
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}
+
+.box {
+    position: fixed;
+   top: 0;
+    left: 0;
+    border-radius: 50%;
+   /* bottom: 150px;
+        left: 0*/
+     /*   width: 100%;
+    height: 50px;
+    background: #111;
+    }
+*/
